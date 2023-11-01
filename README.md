@@ -4,6 +4,18 @@ A home for my dotfiles
 
 ## Setup
 
+### Cloning to new computer
+
+```
+alias dotfiles='/usr/local/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+git clone --bare git@github.com:tallen116/dotfiles.git $HOME/.dotfiles
+dotfiles checkout
+dotfiles config --local status.showUntrackedFiles no
+```
+
+Note:
+If conflicting files are found you will have to move them.
+
 ### Android
 
 Install Termux
