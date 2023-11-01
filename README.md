@@ -16,6 +16,12 @@ dotfiles config --local status.showUntrackedFiles no
 Note:
 If conflicting files are found you will have to move them.
 
+### MacOS
+
+```
+alias dotfiles='/usr/local/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+```
+
 ### Android
 
 Install Termux
