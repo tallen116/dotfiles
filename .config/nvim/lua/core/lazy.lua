@@ -17,5 +17,9 @@ if not status then
 	return
 end
 
-lazy.setup("plugins")
+lazy.setup({
+	{ import = "plugins" },
+	{ import = "colors" },
+})
+
 
