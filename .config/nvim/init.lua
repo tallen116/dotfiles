@@ -1,4 +1,4 @@
-require("plugins")
+require("core")
 
 vim.opt.shiftwidth = 2
 vim.opt.expandtab = false
