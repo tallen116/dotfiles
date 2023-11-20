@@ -19,4 +19,4 @@ vim.keymap.set("i", "<C-c>", "<Esc>")
 
 -- Insert newlines
 vim.keymap.set("n", "<leader>o", '@="m`o\\eg``"<cr>')
-vim.keymap.set("n", "<leader>O", '@="m`o\\eg``"<cr>')
+vim.keymap.set("n", "<leader>O", '@="m`O\\eg``"<cr>')
